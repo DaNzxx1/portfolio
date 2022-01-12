@@ -1,0 +1,168 @@
+/** Declaração de Cores **/
+$color-blue: #1E90FF
+
+.blue-primary
+    color: $color-blue
+
+*
+    margin: 0px
+    padding: 0px
+    text-decoration: none
+    box-sizing: border-box
+    scroll-behavior: smooth
+
+body
+    background: linear-gradient(90deg, #c0c0c0 0%, rgba(255,255,255,1) 100%)
+
+.header
+    position: fixed
+    top: 0
+    z-index: 99
+    transition: all .5s
+    background: linear-gradient(90deg, #c0c0c0 0%, rgba(255,255,255,1) 100%)
+    width: 100%
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.5)
+
+    h2
+        color: $color-blue
+        font-size: 40px
+        text-shadow: 1px 1px 3px white
+        font-weight: bold
+
+    .menus
+        color: black
+        font-size: 25px
+        font-weight: bold
+        border-bottom: 0px solid $color-blue
+
+    .menus:hover
+        -webkit-transition: .1s all
+        -webkit-transition-delay: 0.1s
+        border-bottom: 5px solid $color-blue
+
+.apresentacao
+    font-weight: bold
+
+    padding: 350px 0
+
+    h4
+        color: #1E90FF
+        font-weight: bold
+        text-shadow: 1px 1px 1px black
+    h1
+        font-size: 80px
+        font-weight: bold
+        text-align: center
+        text-shadow: 1px 1px 1px white
+    h3
+        font-weight: bold
+        text-shadow: 1px 1px 1px black
+
+.divider
+    border-right: 1px solid #DCDCDC
+
+.sobre
+    padding: 80px 50px
+    background-color: rgba(30, 144, 255, 0.8)
+    color: white
+    box-shadow: 0px 0px 8px black
+    text-shadow: 0px 0px 2px black
+
+    .sobre-infos
+        .sobre-dados
+            font-size: 20px
+
+            span
+                font-weight: bold
+                font-size: 25px
+
+        .botao
+            background-color: #00c911
+            border: 1px solid white
+            border-radius: 20px
+            color: white
+            font-weight: bold
+            padding: 10px 40px
+            float: right
+
+        .botao:hover
+            background-color: #00a00d
+
+    .sobre-historia
+        padding: 0 50px
+
+        .sobre-texto
+            font-size: 20px
+            font-weight: 500
+
+        h2
+            font-size: 40px
+
+.projetos
+    padding: 50px 50px
+
+    h2
+        font-size: 40px
+
+    .ver-mais
+        text-decoration: none
+        color: black
+        font-size: 20px
+
+    .ver-mais:hover
+        font-weight: bold
+
+.contato
+    padding: 50px 50px
+
+    h2
+        font-size: 40px
+
+    .icon
+        background-color: $color-blue
+        padding: 15px 0
+        border-radius: 35px
+
+    a
+        text-decoration: none
+        font-size: 25px
+
+.footer
+    background-color: rgba(30, 144, 255, 0.8)
+    padding: 30px
+
+    .socials
+        color: #fff
+        text-shadow: 0px 0px 4px black
+
+    .socials:hover
+        color: #cccccc
+
+    p
+        font-size: 20px
+        font-weight: 500
+
+    small
+        font-size: 18px
+        font-weight: 500
+
+    .copy
+        text-shadow: 0px 0px 4px black
+
+@media (max-width: 768px)
+
+    .apresentacao h1
+        font-size: 60px
+
+    .divider
+        border-right: 0px solid #DCDCDC
+        border-bottom: 1px solid #DCDCDC
+
+    .sobre
+        gap: 5px
+
+        .sobre-infos
+            padding-bottom: 30px
+
+        .sobre-historia
+            padding-top: 30px

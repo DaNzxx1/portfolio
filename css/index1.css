@@ -1,0 +1,13 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(90deg, rgba(226,226,226,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.apresentacao {
+    padding: 200px 0;
+}

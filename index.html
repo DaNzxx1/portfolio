@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danilo Lourenço - Programador Júnior</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/boostratp.min.css">
+</head>
+
+<body>
+    <header class="header d-flex flex-wrap justify-content-around p-3">
+        <div class="d-flex align-items-center gap-2">
+            <i class="fab fa-codepen fa-2x"></i>
+            <h2>Danilo Lourenço</h2>
+        </div>
+        <ul class="nav">
+            <li class="nav-item"><a class="menus nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="menus nav-link" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="menus nav-link" href="#projetos">Projetos</a></li>
+            <li class="nav-item"><a class="menus nav-link" href="#contato">Contato</a></li>
+        </ul>
+    </header>
+
+    <section class="apresentacao">
+        <div class="d-flex flex-column justify-content-center align-items-center">
+            <h4>Olá! Eu sou</h5>
+                <h1>Danilo Lourenço</h1>
+                <h3>Eu sou <span class="blue-primary">Programador Junior</span></h3>
+        </div>
+    </section>
+
+    <section class="sobre row d-flex justify-content-around align-items-center" id="sobre">
+        <div class="sobre-infos col-md-5 divider">
+            <li class="sobre-dados nav-link"><span>Nome:</span> Danilo Clímaco Lourenço</li>
+            <li class="sobre-dados nav-link"><span>Data de Nascimento:</span> 17/09/2003 - 18 anos</li>
+            <li class="sobre-dados nav-link"><span>Endereço:</span> Samambaia Norte, Brasília - DF</li>
+            <li class="sobre-dados nav-link"><span>E-mail:</span> danilo.03@outlook.com</li>
+            <a type="button" class="botao btn" href="/cv/Danilo Lourenço - Currículo.pdf">Download Currículo</a>
+        </div>
+        <div class="sobre-historia col-md-7 text-center">
+            <h2 class="fw-bold">Sobre mim</h2>
+            <p class="sobre-texto">Me chamo Danilo, sou recém formado na ETB no curso de Técnico em Informática na qual
+                foi onde
+                dei inicio a minha jornada como programador estudando HTML, CSS, JAVA, JAVAWEB(JSP) e PHP. Parelelo ao
+                curso estudei e fiz curso na Udemy onde pude aprender CodeIgniter e melhorar meus fundamentos em PHP.
+                Hoje estou em busca da minha primeira oportunidade na área de programação.
+            </p>
+
+        </div>
+    </section>
+
+    <section class="projetos" id="projetos">
+        <h2 class="text-center fw-bold">Projetos</h2>
+        <div class="d-flex flex-row justify-content-around align-items-center">
+            <div class="row row-cols-1 row-cols-md-3 g-4 mt-3 mb-4">
+                <div class="col">
+                    <div class="card h-100 shadow">
+                        <img src="bloodmoon.jpg" class="card-img-top" alt="Site Bloodmoon">
+                        <div class="card-body d-flex justify-content-around align-items-center">
+                            <i class="fas fa-guitar fa-3x px-3"></i>
+                            <div class="text-center">
+                                <h4 class="card-title">Bloodmoon</h4>
+                                <p class="card-text">Site para apresentação da banda de rock Bloodmoon!</p>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="ver-mais" href="https://danzxx1.github.io/bloodmoon/index.html">Ver
+                                mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow">
+                        <img src="klinik.jpg" class="card-img-top" alt="Dashboard/Admin KLINIK">
+                        <div class="card-body d-flex justify-content-around align-items-center">
+                            <i class="fas fa-tooth fa-3x px-3"></i>
+                            <div class="text-center">
+                                <h4 class="card-title">Klinik</h4>
+                                <p class="card-text">Sistema de controle interno (dashboard/admin) para a clínica
+                                    odontologica - KLINIK</p>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="ver-mais" href="https://github.com/DaNzxx1/klinik">Ver
+                                mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 shadow">
+                        <img src="ballebot.jpg" class="card-img-top" alt="Landing Page BalleBot">
+                        <div class="card-body d-flex justify-content-around align-items-center">
+                            <i class="fas fa-robot fa-3x px-3"></i>
+                            <div class="text-center">
+                                <h4 class="card-title">Balle Bot</h4>
+                                <p class="card-text">Landing Page criada para o bot de discord Balle Bot</p>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a class="ver-mais" href="https://danzxx1.github.io/landingPage-BalleBot/">Ver
+                                mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contato">
+        <h2 class="text-center fw-bold">Contato</h2>
+        <div class="d-flex justify-content-center">
+            <div class="align-self-stretch box text-center p-4 shadow">
+                <div class="icon d-flex align-items-center justify-content-center mx-5">
+                    <i class="far fa-envelope fa-3x text-light"></i>
+                </div>
+                <div>
+                    <h3 class="my-3">E-mail</h3>
+                    <p><a href="mailto:danilo.03@outlook.com">danilo.03@outlook.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer text-light d-flex flex-wrap justify-content-evenly align-items-center gap-5">
+        <div class="px-5">
+            <!-- <h2 class="text-center fw-bold">Obrigado e até mais!</h2> -->
+            <div>
+                <ul class="nav">
+                    <li class="nav-item"><a href="https://www.instagram.com/danilozx2/" class="nav-link socials"><i
+                                class="fab fa-instagram fa-3x"></i></a>
+                    </li>
+                    <li class="nav-item"><a href="https://www.facebook.com/danilo.lourenco.338/"
+                            class="nav-link socials"><i class="fab fa-facebook fa-3x"></i></a>
+                    </li>
+                    <li class="nav-item"><a href="https://www.linkedin.com/in/danilo-lourenço-zx2/"
+                            class="nav-link socials"><i class="fab fa-linkedin fa-3x"></i></a>
+                    </li>
+                    <li class="nav-item"><a href="https://github.com/DaNzxx1" class="nav-link socials"><i
+                                class="fab fa-github fa-3x"></i></a>
+                    </li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link socials"><i
+                                class="far fa-envelope fa-3x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy d-flex flex-column align-items-end">
+            <p class="m-0">Todos os direitos reservados</p>
+            <small>&copy;
+                <script>document.write(new Date().getFullYear());</script> - Danilo Lourenço
+            </small>
+        </div>
+        <!-- aaaa <script>document.write(new Date().getFullYear());</script> -->
+    </footer>
+
+    <script>
+        $(function () {
+            var nav = $('header');
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 150) {
+                    nav.addClass("menu-fixo");
+                    $('body').css('padding-top', 70);
+                } else {
+                    nav.removeClass("menu-fixo");
+                    $('body').css('padding-top', 0);
+                }
+            });
+        });
+    </script>
+    <script src="js/fontawesome.js"></script>
+</body>
+
+</html>
